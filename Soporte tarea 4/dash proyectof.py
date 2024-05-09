@@ -37,7 +37,7 @@ engine = psycopg2.connect(
 
 
 # cargar archivo de disco
-model = tf.keras.models.load_model("models/modelo.keras")
+model = tf.keras.models.load_model("models/modelo.h5")
 
 #Hasta aqui todo esta bien
 #GRAFICOS
